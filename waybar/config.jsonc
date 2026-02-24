@@ -1,0 +1,126 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 48,
+  "spacing": 6,
+  "margin-top": 8,
+  "margin-left": 14,
+  "margin-right": 14,
+  "exclusive": true,
+
+  "modules-left": [
+    "custom/jarvis",
+    "hyprland/workspaces",
+    "hyprland/window"
+  ],
+
+  "modules-center": [
+    "clock"
+  ],
+
+  "modules-right": [
+    "custom/search",
+    "pulseaudio",
+    "battery",
+    "network",
+    "cpu",
+    "memory",
+    "temperature",
+    "custom/power"
+  ],
+
+  "custom/jarvis": {
+    "format": "  JARVIS",
+    "tooltip": "Iron Man · Hyprland · Arch Linux",
+    "on-click": "bash /home/arunachalam/.config/rofi/scripts/launch-rofi.sh"
+  },
+
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "format-icons": {
+      "1": "󰲠",
+      "2": "󰲢",
+      "3": "󰲤",
+      "4": "󰲦",
+      "5": "󰲨",
+      "active": "󱓻",
+      "default": "○"
+    },
+    "persistent-workspaces": { "*": 5 },
+    "on-click": "activate",
+    "on-scroll-up": "hyprctl dispatch workspace e+1",
+    "on-scroll-down": "hyprctl dispatch workspace e-1"
+  },
+
+  "hyprland/window": {
+    "format": " {}",
+    "max-length": 40
+  },
+
+  "clock": {
+    "format": "  {:%H:%M}",
+    "format-alt": "  {:%a %d %b · %H:%M:%S}",
+    "interval": 1
+  },
+
+  "custom/search": {
+    "format": "󰍉",
+    "tooltip": "App Search",
+    "on-click": "bash /home/arunachalam/.config/rofi/scripts/launch-rofi.sh"
+  },
+
+  "pulseaudio": {
+    "format": "{icon}  {volume}%",
+    "format-muted": "󰝟  Muted",
+    "format-icons": {
+      "default": ["󰕿", "󰖀", "󰕾"]
+    },
+    "on-click": "pavucontrol",
+    "scroll-step": 5
+  },
+
+  "battery": {
+    "interval": 30,
+    "states": {
+      "good": 80,
+      "warning": 20,
+      "critical": 10
+    },
+    "format": "{icon}  {capacity}%",
+    "format-charging": "󰂄  {capacity}%",
+    "format-icons": [
+      "󰁺","󰁻","󰁼","󰁽","󰁾",
+      "󰁿","󰂀","󰂁","󰂂","󰁹"
+    ]
+  },
+
+  "network": {
+    "format-wifi": "  {essid} {signalStrength}%",
+    "format-ethernet": "󰈀  Wired",
+    "format-disconnected": "󰤭  Offline",
+    "on-click": "nm-connection-editor"
+  },
+
+  "cpu": {
+    "interval": 3,
+    "format": "󰍛  {usage}%",
+    "on-click": "kitty -e btop"
+  },
+
+  "memory": {
+    "interval": 5,
+    "format": "󰘚  {used:0.1f}G",
+    "on-click": "kitty -e btop"
+  },
+
+  "temperature": {
+    "critical-threshold": 80,
+    "format": "  {temperatureC}°C"
+  },
+
+  "custom/power": {
+    "format": "⏻",
+    "tooltip": "Power Menu",
+    "on-click": "wlogout --protocol layer-shell"
+  }
+}

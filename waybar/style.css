@@ -1,0 +1,122 @@
+/* ═══════════════════════════════════════════════════════
+   WAYBAR — Iron Man Arc Reactor HUD
+   Palette: #00b4d8 · #0077b6 · #0d1b2a · #caf0f8
+   ═══════════════════════════════════════════════════════ */
+
+* {
+  font-family: "JetBrainsMono Nerd Font", "Noto Sans", monospace;
+  font-size:   13px;
+  font-weight: 500;
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+}
+
+window#waybar { background: transparent; color: #caf0f8; }
+
+.modules-left,
+.modules-center,
+.modules-right {
+  background:    rgba(8, 15, 26, 0.90);
+  border:        1px solid rgba(0, 180, 216, 0.28);
+  border-radius: 14px;
+  padding:       2px 8px;
+  box-shadow:    0 0 24px rgba(0,180,216,0.10),
+                 inset 0 1px 0 rgba(0,180,216,0.07);
+  margin:        2px 0;
+}
+
+/* generic module spacing */
+#workspaces, #window, #clock, #pulseaudio, #battery,
+#network, #cpu, #memory, #temperature, #tray,
+#custom-jarvis, #custom-search, #custom-power {
+  color:   #caf0f8;
+  padding: 4px 10px;
+  margin:  2px 2px;
+  border-radius: 10px;
+  transition: all 0.2s ease;
+}
+
+/* JARVIS logo */
+#custom-jarvis {
+  color:          #00b4d8;
+  font-size:      14px;
+  font-weight:    700;
+  letter-spacing: 1px;
+  text-shadow:    0 0 12px rgba(0,180,216,0.75);
+  padding-right:  16px;
+}
+
+/* Workspaces */
+#workspaces button {
+  color:         rgba(202,240,248,0.45);
+  padding:       4px 6px;
+  border-radius: 8px;
+  min-width:     22px;
+  transition:    all 0.2s ease;
+  background:    transparent;
+  border:        none;
+}
+#workspaces button.active {
+  color:      #00b4d8;
+  background: rgba(0,180,216,0.15);
+  box-shadow: 0 0 8px rgba(0,180,216,0.35);
+}
+#workspaces button:hover {
+  color:      #90e0ef;
+  background: rgba(0,180,216,0.10);
+}
+
+/* Clock */
+#clock {
+  color:          #00b4d8;
+  font-size:      15px;
+  font-weight:    700;
+  letter-spacing: 1.5px;
+  text-shadow:    0 0 10px rgba(0,180,216,0.55);
+  padding:        4px 20px;
+}
+
+/* Hover glow */
+#pulseaudio:hover, #battery:hover,
+#network:hover, #cpu:hover, #memory:hover {
+  background: rgba(0,180,216,0.12);
+  color:      #90e0ef;
+  box-shadow: 0 0 10px rgba(0,180,216,0.22);
+}
+
+/* Battery states */
+#battery.good     { color: #00b4d8; }
+#battery.warning  { color: #f4a261; }
+#battery.critical { color: #e63946; animation: blink 0.5s step-end infinite; }
+#battery.charging { color: #90e0ef; }
+@keyframes blink { 50% { opacity: 0.35; } }
+
+/* Temperature */
+#temperature.critical { color: #e63946; }
+
+/* Search & Power */
+#custom-search, #custom-power {
+  font-size:    16px;
+  padding:      4px 12px;
+  background:   rgba(0,180,216,0.07);
+  border:       1px solid rgba(0,180,216,0.18);
+}
+#custom-search:hover { background: rgba(0,180,216,0.17); color: #00b4d8; }
+#custom-power        { color: #e63946; }
+#custom-power:hover  { background: rgba(230,57,70,0.14); box-shadow: 0 0 8px rgba(230,57,70,0.28); }
+
+/* Tray */
+#tray { padding: 4px 8px; }
+#tray > .passive  { -gtk-icon-effect: dim; }
+#tray > .needs-attention { -gtk-icon-effect: highlight; background: rgba(230,57,70,0.15); border-radius: 6px; }
+
+/* Tooltip */
+tooltip {
+  background:    rgba(8, 15, 26, 0.96);
+  border:        1px solid rgba(0,180,216,0.38);
+  border-radius: 10px;
+  color:         #caf0f8;
+  padding:       6px 12px;
+  box-shadow:    0 0 16px rgba(0,180,216,0.14);
+}
