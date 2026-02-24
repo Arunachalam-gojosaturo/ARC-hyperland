@@ -44,19 +44,16 @@
 </div>
 
 ---
+## 🖥️ Desktop Preview
 
-## 📸 Preview
+<p align="center">
+  <img src="assets/screenshots/2026-02-24_23-11-02.png" width="45%">
+  <img src="assets/screenshots/2026-02-24_23-11-46.png" width="45%">
+</p>
 
-<div align="center">
-
-| 🖥️ Desktop | 🔒 Lockscreen |
-|:---:|:---:|
-| ![Desktop](assets/preview.png) | ![Lock](assets/lock.png) |
-
-> 📷 *Add your screenshots to the `assets/` folder*
-
-</div>
-
+<p align="center">
+  <img src="assets/screenshots/2026-02-24_23-14-31.png" width="45%">
+</p>
 ---
 
 ## ✨ Features
@@ -295,3 +292,4 @@ MIT License — Free to use, modify, and distribute.
 *Built with ❤️ on Arch Linux*
 
 </div>
+
