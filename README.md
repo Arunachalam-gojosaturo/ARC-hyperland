@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,50:003566,100:00b4d8&height=200&section=header&text=ARC-HYPERLAND&fontSize=60&fontColor=00b4d8&fontAlignY=38&desc=Iron%20Man%20Inspired%20Hyprland%20Rice%20for%20Arch%20Linux&descColor=90e0ef&descAlignY=60&descSize=18&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020c14,30:003566,70:0077a8,100:00b4d8&height=220&section=header&text=ARC-HYPERLAND&fontSize=70&fontColor=ffffff&fontAlignY=40&desc=⚡%20Iron%20Man%20Inspired%20Hyprland%20Rice%20for%20Arch%20Linux%20⚡&descColor=90e0ef&descAlignY=62&descSize=17&animation=fadeIn" width="100%"/>
 
 </div>
 
@@ -11,13 +11,14 @@
 <img src="https://img.shields.io/badge/Wayland-Only-00b4d8?style=for-the-badge&logo=wayland&logoColor=white&labelColor=0d1117"/>
 <img src="https://img.shields.io/badge/License-MIT-90e0ef?style=for-the-badge&labelColor=0d1117"/>
 
-<br/>
+<br/><br/>
 
 <img src="https://img.shields.io/badge/Shell-Zsh-00b4d8?style=flat-square&logo=gnu-bash&logoColor=white&labelColor=0d1117"/>
-<img src="https://img.shields.io/badge/Terminal-Kitty-00b4d8?style=flat-square&logo=gnome-terminal&logoColor=white&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/Terminal-Kitty-00b4d8?style=flat-square&logoColor=white&labelColor=0d1117"/>
 <img src="https://img.shields.io/badge/Bar-Waybar-00b4d8?style=flat-square&labelColor=0d1117"/>
 <img src="https://img.shields.io/badge/Launcher-Rofi-00b4d8?style=flat-square&labelColor=0d1117"/>
 <img src="https://img.shields.io/badge/Wallpaper-swww-00b4d8?style=flat-square&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/Instagram-@saturogojo__ac-e1306c?style=flat-square&logo=instagram&logoColor=white&labelColor=0d1117"/>
 
 </div>
 
@@ -26,15 +27,19 @@
 <div align="center">
 
 ```
-  ██████╗  ██████╗    ██╗  ██╗██╗   ██╗██████╗ ███████╗██████╗ ██╗      █████╗ ███╗  ██╗██████╗
-  ██╔══██╗██╔════╝    ██║  ██║╚██╗ ██╔╝██╔══██╗██╔════╝██╔══██╗██║     ██╔══██╗████╗ ██║██╔══██╗
-  ███████║██████╗     ███████║ ╚████╔╝ ██████╔╝█████╗  ██████╔╝██║     ███████║██╔██╗██║██║  ██║
-  ██╔══██║██╔══╝      ██╔══██║  ╚██╔╝  ██╔═══╝ ██╔══╝  ██╔══██╗██║     ██╔══██║██║╚████║██║  ██║
-  ██║  ██║╚██████╗    ██║  ██║   ██║   ██║     ███████╗██║  ██║███████╗██║  ██║██║ ╚███║██████╔╝
-  ╚═╝  ╚═╝ ╚═════╝   ╚═╝  ╚═╝   ╚═╝   ╚═╝     ╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚══╝╚═════╝
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                                          ║
+║   █████╗ ██████╗  ██████╗    ██╗  ██╗██╗   ██╗██████╗ ███████╗██████╗ ██╗      █████╗ ███╗  ██╗██████╗   ║
+║  ██╔══██╗██╔══██╗██╔════╝    ██║  ██║╚██╗ ██╔╝██╔══██╗██╔════╝██╔══██╗██║     ██╔══██╗████╗ ██║██╔══██╗  ║
+║  ███████║██████╔╝██║         ███████║ ╚████╔╝ ██████╔╝█████╗  ██████╔╝██║     ███████║██╔██╗██║██║  ██║  ║
+║  ██╔══██║██╔══██╗██║         ██╔══██║  ╚██╔╝  ██╔═══╝ ██╔══╝  ██╔══██╗██║     ██╔══██║██║╚████║██║  ██║  ║
+║  ██║  ██║██║  ██║╚██████╗    ██║  ██║   ██║   ██║     ███████╗██║  ██║███████╗██║  ██║██║ ╚███║██████╔╝  ║
+║  ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝   ╚═╝  ╚═╝   ╚═╝   ╚═╝     ╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚══╝╚═════╝  ║
+║                                                                                                          ║
+║                 ⚡  MINIMAL  ·  REACTIVE  ·  CLEAN  ·  FULLY AUTOMATED  ·  ARCH LINUX  ⚡                  ║
+║                                                                                                          ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
 ```
-
-*`Minimal` · `Reactive` · `Clean` · `Fully Automated`*
 
 </div>
 
@@ -44,11 +49,11 @@
 
 <div align="center">
 
-> 📷 *Add screenshots after pushing*
-
-| Desktop | Lockscreen |
+| 🖥️ Desktop | 🔒 Lockscreen |
 |:---:|:---:|
 | ![Desktop](assets/preview.png) | ![Lock](assets/lock.png) |
+
+> 📷 *Add your screenshots to the `assets/` folder*
 
 </div>
 
@@ -69,7 +74,7 @@
 
 ---
 
-## 🖥 Environment
+## 🖥️ Environment
 
 <div align="center">
 
@@ -81,7 +86,7 @@
 | 🔒 **Screen Lock** | `Hyprlock` | Lock Screen |
 | 💤 **Idle Daemon** | `Hypridle` | Idle Management |
 | 🖼️ **Wallpaper** | `swww` | Animated Transitions |
-| 💻 **Terminal** | `Kitty` | GPU Terminal |
+| 💻 **Terminal** | `Kitty` | GPU-Accelerated Terminal |
 | 🐚 **Shell** | `Zsh` | Command Shell |
 | 🐧 **OS** | `Arch Linux` | Base System |
 
@@ -110,8 +115,8 @@
 |:---:|:---|
 | <kbd>SUPER</kbd> + <kbd>Q</kbd> | Close Window |
 | <kbd>SUPER</kbd> + <kbd>F</kbd> | Toggle Fullscreen |
-| <kbd>SUPER</kbd> + <kbd>H</kbd> <kbd>J</kbd> <kbd>K</kbd> <kbd>L</kbd> | Move Focus (Vim) |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>H</kbd> <kbd>J</kbd> <kbd>K</kbd> <kbd>L</kbd> | Move Window (Vim) |
+| <kbd>SUPER</kbd> + <kbd>H</kbd> <kbd>J</kbd> <kbd>K</kbd> <kbd>L</kbd> | Move Focus (Vim-style) |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>H</kbd> <kbd>J</kbd> <kbd>K</kbd> <kbd>L</kbd> | Move Window (Vim-style) |
 
 </div>
 
@@ -154,7 +159,7 @@ sudo pacman -S --needed - < packages.txt
 
 ---
 
-## 🖼 Wallpaper System
+## 🖼️ Wallpaper System
 
 ```
 Trigger  →  SUPER + W
@@ -243,7 +248,7 @@ hyprctl version
 
 ---
 
-## 🛠 Debug Philosophy
+## 🛠️ Debug Philosophy
 
 ```
 Modular configuration   →  Each component is independent
@@ -259,12 +264,15 @@ Minimal dependencies    →  No bloat
 
 <div align="center">
 
-<img src="https://github.com/Arunachalam-gojosaturo.png" width="100" style="border-radius:50%"/>
+<img src="https://github.com/Arunachalam-gojosaturo.png" width="110" style="border-radius:50%; border: 3px solid #00b4d8;"/>
 
 ### **Arunachalam**
 *Arch Linux Power User · Hyprland Customizer*
 
+<br/>
+
 [![GitHub](https://img.shields.io/badge/GitHub-Arunachalam--gojosaturo-00b4d8?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Arunachalam-gojosaturo)
+[![Instagram](https://img.shields.io/badge/Instagram-@saturogojo__ac-e1306c?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0d1117)](https://instagram.com/saturogojo_ac)
 
 </div>
 
@@ -280,7 +288,7 @@ MIT License — Free to use, modify, and distribute.
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b4d8,50:003566,100:0a0a0a&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b4d8,50:003566,100:020c14&height=120&section=footer" width="100%"/>
 
 **If this setup powered up your desktop, drop a ⭐ on the repo!**
 
